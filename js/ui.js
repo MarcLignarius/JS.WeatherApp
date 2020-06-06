@@ -6,7 +6,6 @@ class UI {
     this.details = document.getElementById('w-details');
     this.icon = document.getElementById('w-icon');
     this.humidity = document.getElementById('w-humidity');
-    this.dewpoint = document.getElementById('w-dewpoint');
     this.wind = document.getElementById('w-wind');
   }
   paint(weather) {
@@ -18,7 +17,6 @@ class UI {
       `http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`
     );
     this.humidity.textContent = `Relative Humidity: ${weather.main.humidity}`;
-    this.dewpoint.textContent = `Wind Direction: ${weather.wind.deg} degrees`;
     this.wind.textContent = `Wind Speed: ${weather.wind.speed}meters/sec`;
   }
 }
