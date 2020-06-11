@@ -1,6 +1,6 @@
 # JS.WeatherApp
 
-#### June 2020
+#### _June 2020_
 
 #### By _**Marc Davies**_
 
